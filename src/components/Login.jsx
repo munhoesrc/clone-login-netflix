@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import logo from '../img/logo.png';
 
 function Login() {
-  const history = useHistory();
+  const navigate = useNavigate();
 
   useEffect(() => {
     setTimeout(() => {
-      console.log('mudar de rota');
-      history.push('/perfil');
+      // console.log('mudar de rota');
+      navigate('/perfil');
     }, 5000);
   }, []);
 
