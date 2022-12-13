@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 function Perfil() {
   return (
     <div>
-      <h1 className="perfil">Perfil</h1>
+      <h1 className="perfil">Perfil Netflix</h1>
     </div>
   );
 }
