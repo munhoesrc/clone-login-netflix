@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 body {
   background-color: black;
 }
@@ -7,8 +9,21 @@ body {
   margin-top: 10vw;
 }
 
-.perfil {
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 30pt;
+  font-weight: 350;
   color: white;
+  margin-left: 70vh;
+  margin-top: 8vw;
+}
+
+.botton-perfil {
+  border: 1px solid lightgrey;
+  padding: 5px 30px;
+  letter-spacing: 1.5px;
+  font-family: 'Inter', sans-serif;
+  color: lightgray;
 }
 
 .lds-roller {
@@ -24,7 +39,7 @@ body {
   transform-origin: 40px 40px;
 }
 .lds-roller div:after {
-  content: " ";
+  content: ' ';
   display: block;
   position: absolute;
   width: 7px;
