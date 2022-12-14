@@ -4,6 +4,7 @@ import logo from '../img/logo.png';
 import imagemFirst from '../img/imgperfil1.png';
 import imagemSecond from '../img/imgperfil2.jpg';
 import imagemFour from '../img/imgperfilkids.png';
+import btnAdd from '../img/btnAdd.png';
 
 function Perfil() {
   return (
@@ -28,6 +29,7 @@ function Perfil() {
           <span>Donald McConnor</span>
         </div>
         <div>
+          <img src={btnAdd} width="150" height="150" alt="botão adicionar" />
           <span>Adicionar perfil</span>
         </div>
       </main>
