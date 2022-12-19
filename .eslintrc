@@ -19,6 +19,6 @@
     ],
     "rules": {
         "react/react/jsx-scope": "off",
-        "react/self-closing-comp": false
+        "react/self-closing-comp": 0
     }
 }
